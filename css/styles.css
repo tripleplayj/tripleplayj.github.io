@@ -19,15 +19,22 @@ h1{
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 26.4px;
-
-
-
-
 }
 
 .timetext{
 	padding-top: 5px;
 	font-size: 70px;
+}
+
+
+div img {
+   width: 250px;
+   height : 300px;
+   position : fixed;
+   display: block;
+   bottom : 50px;
+   left: 42.5%;
+   
 }
 
 /*Actual text within the clock*/
