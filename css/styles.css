@@ -1,25 +1,29 @@
 body{
 	text-align: center;
-	background-image: url("../images/background.jpg");
-	/*background-repeat: no-repeat;
-    background-position: center bottom;
-    background-attachment: fixed;
-	background-position: 50% 80%;
-	background-size: 1200px 150px;
-	font-family: sans-serif;*/
+	background: url("../images/Untitled3.png");
+	/*background-repeat: repeat;*/
+    background-position: 200px 210px;
+	width: 100%;
+    background-attachment: absolute;
+	background-size: 5%;
+	font-family: sans-serif;
+	margin-bottom: 320;
+	margin: 0 auto;
 }
 
 h1{
-/*font-size: 70px;
-/*text-shadow: 5px 5px 0px #eee, 7px 7px 0px #707070;*/
 	font-family: "Brush Script MT", cursive;
-	color: #551A8B;
+	background-color: #b19cd9;
+	color: #FFF;
 	font-size: 130px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
-	line-height: 26.4px;
+	line-height: 210.4px;
+	margin:0;
+
 }
+
 
 .timetext{
 	padding-top: 5px;
@@ -27,16 +31,6 @@ h1{
 }
 
 
-/*div img {
-   width: 250px;
-   height : 300px;
-   position : fixed;
-   display: block;
-   bottom : 0;
-   left: 42.5%;
-   margin : auto;
-   
-}*/
 
 /*Actual text within the clock*/
 #clockdiv{
@@ -54,6 +48,7 @@ h1{
 	border-radius: 50px;
 	background: #008080;
 	display: inline-block;
+	margin-top: 50px;
 }
 
 /*Inside of blocks*/
